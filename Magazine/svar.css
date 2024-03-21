@@ -1,0 +1,70 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+ /* Style Header */
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header {
+    background-color: #56636a;
+    padding: 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+
+  .magazine-menu{
+    text-align: center;
+    margin-top: -90px;
+    padding: 2rem;
+    font-size: 25px;
+  }
+
+  .magazine-menu a {
+    padding: 14px 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+  }
+
+  .magazine-menu a:hover {
+    color: #FA8800;
+    transition: 0.5s;
+  }
+
+  #Logo1 {
+    width: 100px;
+    height: auto;
+}
+
+
+/* Style Main */
+
+.baggrund {
+    background: url(Images/Crossfit5.jpg); 
+    padding:200px;
+}
+
+main {
+    
+    color: #FFFFFF;
+    padding-bottom: 2rem;  
+}
+
+
+h1{
+    font-size: 75px;
+    text-align: center;
+}
+
+
+ /* Style Footer */
+ 
+ footer {
+    color: #FFFFFF;
+    background-color: #56636a;
+    padding: 1rem;
+ }

@@ -1,0 +1,129 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /* Style Header */
+
+ header {
+    background-color: #56636a;
+    padding: 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+
+  .magazine-menu{
+    text-align: center;
+    margin-top: -90px;
+    padding: 2rem;
+    font-size: 25px;
+  }
+
+  .magazine-menu a {
+    padding: 14px 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+  }
+
+  .magazine-menu a:hover {
+    color: #FA8800;
+    transition: 0.5s;
+  }
+
+  #Logo1 {
+    width: 100px;
+    height: auto;
+}
+
+
+/* Style Main */
+
+.baggrund {
+    background: url(Images/Crossfit5.jpg); 
+    padding:100px;
+}
+main {
+    
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+    
+}
+
+.form {
+    margin-left: 450px;
+    margin-top: 100px;
+    background-color: #fa8900e7;
+    width: 25rem;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+form input{
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 75px;
+    text-align: center;
+}
+
+article{
+    color: #FFFFFF;
+    width: 550px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.91);
+}
+
+article a {
+    color: #FFFFFF;
+}
+
+article a:hover{
+    color: #FA8800;
+    transition: 0.5s;
+}
+
+.bike {
+    width: 520px;
+    height: 450px;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.mobilitet1 {
+    width: 520px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.mobilitet2 {
+    width: 520px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.mobilitet3 {
+    width: 520px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+ /* Style Footer */
+ 
+ footer {
+    color: #FFFFFF;
+    background-color: #56636a;
+    padding: 1rem;
+ }
